@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* general body------------------------------- */
+body {
+    font-family: Verdana;
+    background-color: #bfd6c7;
+    color: white;
+}
+
+/* logo y navbar---------------------------------------- */
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+header img {
+    width: 7vw;
+}
+
+nav {
+    background-color: black;
+    width: 100vw;
+    height: 5vh;
+    color: white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    justify-content: center;
+}
+
+a {
+    display: inline;
+    justify-content: center;
+    text-decoration: none;
+    padding: 12%;
+    color: white;
+
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* index1 ----------------------------------------------------*/
+.titulo {
+    font-family: 'Lobster', cursive;
+    
+}
+.home-content {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0px 30px 0px;
+    padding: 10px;
+    width: 57vw;
+    height: 400px;
+}
+.home{
+    background-image: url(imagenes/fondotrabajos.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px auto;
+    padding: 10px auto;
+    width: 58vw;
+    height: 600px;
+}
+/* index2-------------------------------- */
+.trabajos {
+    background-image: url(imagenes/fondotrabajos.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px auto;
+    padding: 10px auto;
+    width: 58vw;
+    height: 600px;
+}
+.trabajos-fotos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* footer------------------------------------------------------- */
+footer {
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.logosfooter {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 40px;
+    width: 50px;
+    margin-right: 20px;
+}
+
+.logosfooter img {
+    width: 50px;
+}
